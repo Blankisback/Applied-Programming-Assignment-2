@@ -5,6 +5,9 @@ Link to StreamFlix: https://blankisback.github.io/Applied-Programming-Assignment
 
 Link to Google Lighthouse report: https://pagespeed.web.dev/analysis/https-blankisback-github-io-Applied-Programming-Assignment-2/8xb1f9m4kq?form_factor=desktop
 
+<img width="1036" height="486" alt="image" src="https://github.com/user-attachments/assets/bce4d8a0-1351-4c5a-b82e-3a26cb1c08c8" />
+
+
 
 
 #Design
