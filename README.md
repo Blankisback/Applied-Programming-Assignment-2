@@ -3,6 +3,7 @@ Applied Programming Assignment 2
 
 Link to StreamFlix: https://blankisback.github.io/Applied-Programming-Assignment-2/
 
+Link to Google Lighthouse report: https://pagespeed.web.dev/analysis/https-blankisback-github-io-Applied-Programming-Assignment-2/8xb1f9m4kq?form_factor=desktop
 
 
 
