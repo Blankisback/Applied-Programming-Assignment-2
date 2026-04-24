@@ -1,6 +1,8 @@
 # Applied-Programming-Assignment-2
 Applied Programming Assignment 2
 
+Link to StreamFlix: https://blankisback.github.io/Applied-Programming-Assignment-2/
+
 
 
 
