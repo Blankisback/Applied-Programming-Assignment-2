@@ -31,3 +31,8 @@ Profile Three:
 
 
 As there is currently no videos embeded into the site, implementing a function to check whether the user is still watching the content is not possible,
+
+
+
+- Implemented Access to OMDB API Key allowing the site to fetch information about movies and movie art
+- 
