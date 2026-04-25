@@ -9,6 +9,25 @@ Link to Google Lighthouse report: https://pagespeed.web.dev/analysis/https-blank
 
 
 
+Wireframe:
+
+<img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/d6d81f70-dd57-4f24-84ae-ab1302a267c8" />
+
+<img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/1926ae8b-21e1-460f-99a5-1f45ca06cd09" />
+
+<img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/3bde8972-101c-40c5-a2e5-0f942222a172" />
+
+<img width="3840" height="3840" alt="image" src="https://github.com/user-attachments/assets/62304240-4aef-4130-9340-962d86913892" />
+
+
+Things that have changed in relation to the Wireframe:
+
+1) There is no reccomended title at the top of the page - This is due to me not knowing how to implement this using HTML - however in a future update I would implement a large container at the top of the site with a randomly selected cover art with the correpsonding title and the watch now button.
+2) I have implemented access to the OMDB database using their free API key, this allows access to more detailed information about the movie such as the runtime and description - this is different to the wireframe as there is no way to directly call a database using figma (as far as I know)
+3) Lastly as there is no selectable plans for the users subscription, I have decided to not implement inputs for card details as there is no way for the user to select a payment plan or know how much they would be paying.
+
+Things I have kept the same in relation to the Wireframe:
+
 
 #Design
 
