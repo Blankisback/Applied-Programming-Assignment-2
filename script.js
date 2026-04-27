@@ -1,6 +1,5 @@
 const apiKey = "862cccce";
 
-// Elements
 const searchInput = document.getElementById("search");
 const toggleBtn = document.getElementById("toggle");
 
@@ -10,7 +9,6 @@ const closeSearch = document.getElementById("closeSearch");
 const modal = document.getElementById("modal");
 const closeModal = document.getElementById("closeModal");
 
-// Fetch movies
 async function fetchMovies(query, containerId) {
   const res = await fetch(`https://www.omdbapi.com/?s=${query}&apikey=${apiKey}`);
   const data = await res.json();
@@ -20,7 +18,6 @@ async function fetchMovies(query, containerId) {
   }
 }
 
-// Display movies
 function displayMovies(movies, containerId) {
   const container = document.getElementById(containerId);
   container.innerHTML = "";
@@ -31,7 +28,6 @@ function displayMovies(movies, containerId) {
     const div = document.createElement("div");
     div.classList.add("movie");
 
-    // ✅ Netflix-style card with overlay
     div.innerHTML = `
       <div class="movie-card">
         <img src="${movie.Poster}" />
@@ -49,7 +45,6 @@ function displayMovies(movies, containerId) {
   });
 }
 
-// Show movie details (modal)
 async function showMovieDetails(id) {
   const res = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=${apiKey}`);
   const data = await res.json();
@@ -61,14 +56,12 @@ async function showMovieDetails(id) {
   modal.classList.remove("hidden");
 }
  
-// Close modal
 closeModal.onclick = () => modal.classList.add("hidden");
 
 window.onclick = (e) => {
   if (e.target === modal) modal.classList.add("hidden");
 };
 
-// Search overlay
 searchInput.addEventListener("keyup", () => {
   const query = searchInput.value;
 
@@ -83,7 +76,6 @@ searchInput.addEventListener("keyup", () => {
 
 closeSearch.onclick = () => overlay.classList.add("hidden");
 
-// Load default rows
 function loadRows() {
   fetchMovies("Avengers", "trending");
   fetchMovies("Batman", "action");
@@ -91,10 +83,8 @@ function loadRows() {
   fetchMovies("Star Wars", "scifi");
 }
 
-// Theme toggle
 toggleBtn.onclick = () => {
   document.body.classList.toggle("light");
 };
 
-// Init
 loadRows();
