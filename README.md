@@ -60,4 +60,18 @@ As there is currently no videos embeded into the site, implementing a function t
 
 
 - Implemented Access to OMDB API Key allowing the site to fetch information about movies and movie art
-- 
+
+
+
+#Development
+
+<img width="1355" height="551" alt="image" src="https://github.com/user-attachments/assets/cbd438b2-7555-4b73-8397-8cebccfc98e8" />
+<img width="1362" height="835" alt="image" src="https://github.com/user-attachments/assets/e97999af-4be2-4547-b0a9-9f7cfbfd2ec1" />
+<img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/c22bed66-042f-4efa-9e56-444fa328e96e" />
+<img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/0d27e087-1bc1-4f46-8910-b8a5209cf7d5" />
+<img width="1365" height="707" alt="image" src="https://github.com/user-attachments/assets/6c86d427-48b8-4c0a-8165-3dac6db673b4" />
+<img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/d2b567b8-36e8-4593-be5e-d8ab26e5fdc6" />
+<img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/03fe757b-08e5-4148-acef-65429d6c3216" />
+
+
+
