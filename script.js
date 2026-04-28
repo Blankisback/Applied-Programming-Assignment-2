@@ -1,4 +1,4 @@
-const apiKey = "862cccce"; 
+const apiKey = "862cccce"; // in actual scenarios i would never put my api key here - as this could easily be found by bots - however as this is a free api everyone can access I am leaving it here instead of a gitignore file
 
 // this api key i got for free from OMDB - link is provided at the bottom of the README
 
@@ -11,25 +11,28 @@ const closeSearch = document.getElementById("closeSearch");
 const modal = document.getElementById("modal");
 const closeModal = document.getElementById("closeModal");
 
+// FOR CALLING THE API - I USED FREECODECAMP TO LEARN HOW - REFERENCE AT BOTTOM OF README
+
 async function fetchMovies(query, containerId) {
   const res = await fetch(`https://www.omdbapi.com/?s=${query}&apikey=${apiKey}`);
   const data = await res.json();
 
-  if (data.Response === "True") {
+  if (data.Response === "True") {    // if the api call works then the cover images for the movies are loaded
     displayMovies(data.Search, containerId);
   }
 }
 
 function displayMovies(movies, containerId) {
   const container = document.getElementById(containerId);
-  container.innerHTML = "";
+  container.innerHTML = ""; // clears previous results before loading new ones to prevent results stacking on top of eachother and creating weird overlays
 
   movies.forEach(movie => {
-    if (movie.Poster === "N/A") return;
+    if (movie.Poster === "N/A") return; // skips movies that dont have a poster so they arent shown to the user
 
     const div = document.createElement("div");
     div.classList.add("movie");
 
+    // fetches the title and year and underneath displays them both underneath the movie poster so that the user can easier tell the title of the movie
     div.innerHTML = `
       <div class="movie-card">
         <img src="${movie.Poster}" />
@@ -46,6 +49,7 @@ function displayMovies(movies, containerId) {
     container.appendChild(div);
   });
 }
+
 
 async function showMovieDetails(id) {
   const res = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=${apiKey}`);
@@ -85,7 +89,7 @@ function loadRows() {
   fetchMovies("Star Wars", "scifi");
 }
 
-toggleBtn.onclick = () => {
+toggleBtn.onclick = () => { // light mode toggle 
   document.body.classList.toggle("light");
 };
 
