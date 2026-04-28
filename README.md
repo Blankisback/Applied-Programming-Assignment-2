@@ -28,8 +28,11 @@ Things that have changed in relation to the Wireframe:
 
 Things I have kept the same in relation to the Wireframe:
 
+1) Overall aesthetic of the color scheme, this is due to a brand being most recognizable by their colours
+2) General layout of the movies being in a grid format which can be scrolled through
+3) Location of the buttons - this is because the human eye follows a F pattern when going through a site so by keeping the buttons in the same place as every site the user will not feel overwhelmed with content on the page.
 
-#Design
+# Design
 
 The aim of this site is to provide accessibility features that mainline providers such as Netflix and Amazon Prime do not offer.
 
@@ -64,7 +67,7 @@ As there is currently no videos embeded into the site, implementing a function t
 
 
 
-#Development
+# Development
 
 <img width="1355" height="551" alt="image" src="https://github.com/user-attachments/assets/cbd438b2-7555-4b73-8397-8cebccfc98e8" />
 Shows what the site would look like when DARK MODE is toggled
