@@ -1,4 +1,6 @@
-const apiKey = "862cccce";
+const apiKey = "862cccce"; 
+
+// this api key i got for free from OMDB - link is provided at the bottom of the README
 
 const searchInput = document.getElementById("search");
 const toggleBtn = document.getElementById("toggle");
