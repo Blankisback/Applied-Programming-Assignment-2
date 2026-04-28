@@ -93,8 +93,25 @@ Demonstrates input validation for the sign in form.
 
 
 
+# Testing
+
+One bug i have found is that when the user switches to "Light mode" and they interact with the cover for a movie to read the description, the container in which the information is displayed remains in dark mode (refer to screenshot below):
+
+<img width="937" height="857" alt="image" src="https://github.com/user-attachments/assets/caecd9b5-7644-4fb3-afaf-eb5d45e8c76e" />
+
+This is likely due to an issue with how the container is stored as when I am updating the background color to white - containers are stored seperate to this so they are not updated and inverted to fit the changed color scheme
 
 
+
+
+HTML VALIDATOR:
+<img width="1017" height="720" alt="image" src="https://github.com/user-attachments/assets/486a6fd1-2611-4b4f-a1f0-b6fca447ba41" />
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fblankisback.github.io%2FApplied-Programming-Assignment-2%2Findex.html
+
+
+CSS VALIDATOR:
+<img width="1027" height="1447" alt="image" src="https://github.com/user-attachments/assets/d42bfa7a-1205-4842-8c95-238b82705521" />
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fblankisback.github.io%2FApplied-Programming-Assignment-2%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 
 
