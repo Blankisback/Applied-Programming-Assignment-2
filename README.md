@@ -9,6 +9,8 @@ Link to Google Lighthouse report: https://pagespeed.web.dev/analysis/https-blank
 
 
 
+Due to me not being used to writing in html, not all features of the wireframe would be able to be implemented at this stage in development. However for a full-fledged streaming service I would not be a single developer and would have multiple people working on this project - additionally there is no watchable media this is as I do not actually own the rights to these movies and O am rather calling data about them via a large free database through a public API key.
+
 Wireframe:
 
 <img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/d6d81f70-dd57-4f24-84ae-ab1302a267c8" />
