@@ -132,5 +132,5 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fblankisback.gith
 References:
 
 OMDB API - https://www.omdbapi.com
-
+FREECODE CAMP - https://www.freecodecamp.org/news/make-api-calls-in-javascript/
 
