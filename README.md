@@ -67,13 +67,25 @@ As there is currently no videos embeded into the site, implementing a function t
 #Development
 
 <img width="1355" height="551" alt="image" src="https://github.com/user-attachments/assets/cbd438b2-7555-4b73-8397-8cebccfc98e8" />
-<img width="1362" height="835" alt="image" src="https://github.com/user-attachments/assets/e97999af-4be2-4547-b0a9-9f7cfbfd2ec1" />
-<img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/c22bed66-042f-4efa-9e56-444fa328e96e" />
-<img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/0d27e087-1bc1-4f46-8910-b8a5209cf7d5" />
-<img width="1365" height="707" alt="image" src="https://github.com/user-attachments/assets/6c86d427-48b8-4c0a-8165-3dac6db673b4" />
-<img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/d2b567b8-36e8-4593-be5e-d8ab26e5fdc6" />
-<img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/03fe757b-08e5-4148-acef-65429d6c3216" />
+Shows what the site would look like when DARK MODE is toggled
 
+<img width="1362" height="835" alt="image" src="https://github.com/user-attachments/assets/e97999af-4be2-4547-b0a9-9f7cfbfd2ec1" />
+Shows what the site would look like when LIGHT mode is enabled
+
+<img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/c22bed66-042f-4efa-9e56-444fa328e96e" />
+Shows how the search function works - however in a future development/update i would have the input box visibile instead of being placed under the container which can make it difficult for users to know what movie they are searching for (i.e if there is a spelling error)
+
+<img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/0d27e087-1bc1-4f46-8910-b8a5209cf7d5" />
+Shows what happens when a user clicks onto a movie cover image, this displays information fetched using the OMDB api key 
+
+<img width="1365" height="707" alt="image" src="https://github.com/user-attachments/assets/6c86d427-48b8-4c0a-8165-3dac6db673b4" />
+User is redirected to the sign in page when pressing the corresponding button in the top right hand corner of the index page. As there is no backend database to store user information this currently does nothing as there is no way to store the data except locally.
+
+<img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/d2b567b8-36e8-4593-be5e-d8ab26e5fdc6" />
+Demonstrates input validation for the sign in form.
+
+<img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/03fe757b-08e5-4148-acef-65429d6c3216" />
+Demonstrates input validation for the sign in form.
 
 
 
