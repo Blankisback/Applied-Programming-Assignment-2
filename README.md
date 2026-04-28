@@ -63,6 +63,7 @@ As there is currently no videos embeded into the site, implementing a function t
 
 
 
+
 #Development
 
 <img width="1355" height="551" alt="image" src="https://github.com/user-attachments/assets/cbd438b2-7555-4b73-8397-8cebccfc98e8" />
@@ -73,5 +74,31 @@ As there is currently no videos embeded into the site, implementing a function t
 <img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/d2b567b8-36e8-4593-be5e-d8ab26e5fdc6" />
 <img width="1358" height="650" alt="image" src="https://github.com/user-attachments/assets/03fe757b-08e5-4148-acef-65429d6c3216" />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References:
+
+OMDB API - https://www.omdbapi.com
 
 
