@@ -51,45 +51,49 @@ function displayMovies(movies, containerId) {
 }
 
 
+
+// gets all of the details about the movie by calling the API key
+
 async function showMovieDetails(id) {
   const res = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=${apiKey}`);
   const data = await res.json();
 
+  //places the movie data under the modal elements which are then called when the user clicks onto the cover image for the movie 
   document.getElementById("modalTitle").innerText = data.Title;
   document.getElementById("modalRuntime").innerText = "Runtime: " + data.Runtime;
   document.getElementById("modalPlot").innerText = data.Plot;
 
-  modal.classList.remove("hidden");
+  modal.classList.remove("hidden"); // actually displays the contents when the user clicks as it would always be there but just not visible to the user - done by using the hidden class
 }
  
-closeModal.onclick = () => modal.classList.add("hidden");
+closeModal.onclick = () => modal.classList.add("hidden"); // when user clicks the X button the window closes
 
 window.onclick = (e) => {
-  if (e.target === modal) modal.classList.add("hidden");
+  if (e.target === modal) modal.classList.add("hidden");  // when the user clicks outside of the window/container with the description  - it closes
 };
 
-searchInput.addEventListener("keyup", () => {
+searchInput.addEventListener("keyup", () => {  // live search - so basically when the user types in the input field, the results update live i.e Aven would return Avengers results
   const query = searchInput.value;
 
   if (query.length < 3) {
-    overlay.classList.add("hidden");
+    overlay.classList.add("hidden"); // until the user has typed ATLEAST 3 characters then no search result should pop up - this prevents random movies that the user is NOT trying to search for coming up
     return;
   }
 
-  overlay.classList.remove("hidden");
+  overlay.classList.remove("hidden"); // shows the search overlay by removing the hidden class 
   fetchMovies(query, "searchResults");
 });
 
 closeSearch.onclick = () => overlay.classList.add("hidden");
 
-function loadRows() {
+function loadRows() {        // fills the rows on the homepage straight away when the page loads - prevents user from seeing an empty screen
   fetchMovies("Avengers", "trending");
   fetchMovies("Batman", "action");
   fetchMovies("Comedy", "comedy");
   fetchMovies("Star Wars", "scifi");
 }
 
-toggleBtn.onclick = () => { // light mode toggle 
+toggleBtn.onclick = () => { // light mode toggle on/off
   document.body.classList.toggle("light");
 };
 
